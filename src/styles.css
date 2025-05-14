@@ -28,9 +28,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .static-bg{
-    background: url("assets/static.gif");
+    background-image: url("assets/static.gif");
 }
 
 .music-img-ref{
-    background: url("assets/music-text.png");
+    background-image: url("assets/music-text.png");
 }
