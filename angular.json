@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "the-moat-io": {
+    "the_moat_io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/the_moat_io",
+            "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "the-moat-io:build:production"
+              "browserTarget": "the_moat_io:build:production"
             },
             "development": {
-              "browserTarget": "the-moat-io:build:development"
+              "browserTarget": "the_moat_io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "the-moat-io:build"
+            "browserTarget": "the_moat_io:build"
           }
         },
         "test": {
@@ -104,5 +104,5 @@
       }
     }
   },
-  "defaultProject": "the-moat-io"
+  "defaultProject": "the_moat_io"
 }
