@@ -1,28 +1,12 @@
-#da-moat{
-    font-family: oldeEnglish;
-    color: var(--moat-yellow);
-    font-size: 300%;
-    white-space: nowrap;
-
-    text-align: center;
-    vertical-align: middle;
+.routerLinks{
+    margin-top: 25%;
 }
 
-.center{
-    position: fixed;
-    left: 50%;
-    /* top: 50%; */
-    transform: translate(-50%, 0%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#music{
+    background: url("../../../assets/music-text.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25vh;
+    width: 75vw;
 }
 
-#circle{
-    /* background-color: whitesmoke; */
-    background: url("../../../assets/static.gif");
-    margin-top: 25px;
-    border-radius: 50%;
-    height: 10%;
-    width: 50%;
-}
