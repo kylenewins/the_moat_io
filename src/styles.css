@@ -30,7 +30,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .static-bg{
     background-image: url("assets/static.gif");
 }
-
-.music-img-ref{
-    /* background-image: url("assets/music-text.png"); */
-}
