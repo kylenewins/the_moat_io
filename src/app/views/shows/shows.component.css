@@ -1,0 +1,12 @@
+#happy-mike{
+    width: 70vw;
+    height: 70vh;
+    margin-bottom: 15%;
+}
+
+#da-moat{
+    font-family: oldeEnglish;
+    color: var(--moat-yellow);
+    font-size: 500%;
+    white-space: nowrap;
+}
