@@ -1,0 +1,1 @@
+{"ast":null,"code":"import EndpointsBase from './EndpointsBase.js';\nexport default class UsersEndpoints extends EndpointsBase {\n  profile(userId) {\n    return this.getRequest(`users/${userId}`);\n  }\n\n} //# sourceMappingURL=UsersEndpoints.js.map","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const emptyAccessToken = {\n  access_token: \"emptyAccessToken\",\n  token_type: \"\",\n  expires_in: 0,\n  refresh_token: \"\",\n  expires: -1\n};\nexport function isEmptyAccessToken(value) {\n  return value === emptyAccessToken;\n} //# sourceMappingURL=IAuthStrategy.js.map","map":null,"metadata":{},"sourceType":"module"}

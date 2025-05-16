@@ -1,0 +1,1 @@
+{"ast":null,"code":"import EndpointsBase from './EndpointsBase.js';\nexport default class MarketsEndpoints extends EndpointsBase {\n  getAvailableMarkets() {\n    return this.getRequest('markets');\n  }\n\n} //# sourceMappingURL=MarketsEndpoints.js.map","map":null,"metadata":{},"sourceType":"module"}
