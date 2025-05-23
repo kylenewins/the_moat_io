@@ -1,14 +1,19 @@
 #container{
-    width: 80vw;
+    width: 95vw;
     height: 80vh;
     margin: 20px;
-    padding: 10px;
-    overflow-x: scroll; /* Horizontal scroll */
-    overflow-y: scroll; /* Vertical scroll */
+    /* padding: 10px; */
+    overflow-x: scroll; 
+    overflow-y: scroll;
 }
 
 .content {
-    /* width: 500px; 
-    height: 300px; */
+    width: 95%; 
+    height: 300px;
     /* padding: 20px; */
+}
+
+#plane-pic{
+    width: 100%;
+    bottom: 0;
 }
