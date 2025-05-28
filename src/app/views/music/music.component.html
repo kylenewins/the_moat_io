@@ -2,12 +2,14 @@
 <!-- <iframe id="spotify-player" style="border-radius:12px" src="https://open.spotify.com/embed/artist/1mHoO7ShVYbkxXI2HRixX4?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
 <div id="container">
     <div *ngFor="let link of this.musicLinks">
-        <mat-card class="link-card static-bg" appearance="outlined" mat-button (click)="openLink(link.url)">
+        <mat-card class="link-card {{link.className}}" appearance="outlined" mat-button (click)="openLink(link.url)">
             <mat-card-content>
-                <h1 class="card-text">{{link.title}}</h1>
+                <!-- <h1 class="card-text">{{link.title}}</h1> -->
                 <img class="icons" src="{{link.iconRef}}">
             </mat-card-content>
         </mat-card>
     </div>
+    <img class="overlay" id="bike-pic" src="assets/scans/hobbies/eatting shit 1.png">
+
 </div>
 

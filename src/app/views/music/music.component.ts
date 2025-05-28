@@ -17,8 +17,8 @@ export class MusicComponent implements OnInit {
   private appleUrl = "https://music.apple.com/us/artist/the-moat/1803834713"
 
   ngOnInit(): void {
-    this.musicLinks.push(new MusicCard("Spotify", this.spotifyUrl, "assets/logos/spotify.png"));
-    this.musicLinks.push(new MusicCard("Apple Music", this.appleUrl, "assets/logos/apple.png"));
+    this.musicLinks.push(new MusicCard("Spotify", this.spotifyUrl, "assets/logos/spotify.png", "story-bg"));
+    this.musicLinks.push(new MusicCard("Apple Music", this.appleUrl, "assets/logos/apple.png", "story-bg2"));
   }
 
  public openLink(url:string){
@@ -32,10 +32,12 @@ class MusicCard{
   title: string;
   url: string;
   iconRef: string;
+  className:string;
 
-  constructor(title:string, url:string, iconRef: string){
+  constructor(title:string, url:string, iconRef: string, className: string){
     this.title = title;
     this.url = url;
     this.iconRef = iconRef;
+    this.className = className
   }
 }

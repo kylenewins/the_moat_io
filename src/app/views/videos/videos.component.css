@@ -15,5 +15,7 @@
 
 #plane-pic{
     width: 100%;
+    /* height: 60%; */
+    height: 25vh;
     bottom: 0;
 }

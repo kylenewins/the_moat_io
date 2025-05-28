@@ -6,3 +6,41 @@
     background-size: 100% 100%;
 }
 
+#container{
+    width: 95vw;
+    height: 80vh;
+    margin: 20px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+#footer{
+    width: 90vw;
+    height: 20%;
+    overflow:hidden;
+    bottom: 0;
+}
+
+#left-pic{
+    width: 25vw;
+    height: 100px;
+    position: relative;
+    float: left;
+    z-index: 5000;
+}
+
+#right-pic{
+    width: 25vw;
+    height: 100px;
+    float: right;
+    position: relative;
+    z-index: 5000;
+}
+
+#moat-pic{
+    width: 50vw;
+    height: 150px;
+    margin-top: 20px;
+}
+
+

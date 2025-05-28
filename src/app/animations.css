@@ -4,3 +4,29 @@
     65% { left: 50%; }
     100% { left: 100%; }
 }
+
+@keyframes rotate-left  {
+    0% {transform: rotate(-90deg)}
+    100% { transform: rotate(-60deg)}
+}
+
+.anim-rotate-left{
+    animation-name: rotate-left;
+    animation-duration: 2s; 
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}
+
+@keyframes rotate-right  {
+    0% {transform: rotate(90deg) scaleX(-1)}
+    100% { transform: rotate(60deg) scaleX(-1)}
+}
+
+.anim-rotate-right{
+    animation-name: rotate-right;
+    animation-duration: 2s; 
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+}

@@ -32,8 +32,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-image: url("assets/static.gif");
 }
 
+.story-bg{
+    background-image: url("assets/scans/green_book/cover.jpeg");
+    background-size: 100% 200%;
+}
+
+.story-bg2{
+    background-image: url("assets/scans/green_book/cover.jpeg");
+    background-size: 100% 200%;
+    background-position: 100% 100%;
+}
+
 .overlay{
     position: absolute;
     z-index: 1000;
+    
 }
 

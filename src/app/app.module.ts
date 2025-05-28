@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { VideosComponent } from './views/videos/videos.component';
 import { ShowsComponent } from './views/shows/shows.component';
 
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { ShowsComponent } from './views/shows/shows.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

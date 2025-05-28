@@ -17,11 +17,15 @@
 #left-logo{
     height: 100px;
     width: 100px;
-    /* right: 0;
-    top: 0; */
+}
 
-    
-    /* animation-name: left-to-right;
-    animation-duration: 5s; 
-    animation-timing-function: linear; */
+
+#butterflies{
+    top: 0;
+    z-index: -1000;
+    left: 0;
+}
+
+#content{
+    overflow: hidden;
 }
