@@ -12,6 +12,7 @@
     margin-bottom: 25px;
     padding-bottom: 20%;
     position: relative;
+    filter: drop-shadow(10px 10px 10px black);
 }
 
 .card-text{
@@ -47,5 +48,5 @@
 #bike-pic{
     right: 0;
     transform: translate(0, -10%) scale(1.2);
-    width: 50%;
+    width: 100%;
 }
