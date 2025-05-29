@@ -40,9 +40,10 @@
 #moat-pic{
     width: 50vw;
     height: 50vw;
-    /* margin-top: 25px; */
-    margin-left: 35vw;
-    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, -70px);
+    z-index: -1000;
 }
 
 
