@@ -1,0 +1,35 @@
+/* Desktop Specific style */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) 
+{ 
+    /* root component */
+    #circle{
+        width: 20vw !important;
+    }
+
+    #da-moat{
+        font-size: 3vw;
+    }
+
+    #butterflies{
+        margin-top: 10vh;
+        width: 50vw;
+    }
+
+    #car{
+        display: inline;
+    }
+
+    /* home component */
+    #moat-pic{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .routerLinks{
+        margin-top: 10vh;
+        height: 15vh;
+        width: 65vh;
+    }
+
+
+}

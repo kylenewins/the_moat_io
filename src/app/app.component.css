@@ -3,16 +3,18 @@
     /* background-color: whitesmoke; */
     margin-top: 25px;
     border-radius: 50%;
-    height: 10%;
-    width: 50%;
+    height: 10vh;
+    width: 60vw;
 }
 
 #da-moat{
     font-family: oldeEnglish;
     color: var(--moat-yellow);
-    font-size: 300%;
+    /* color: black; */
+    font-size: 10vw;
+    margin-top: 3vh;
     white-space: nowrap;
-}
+    text-shadow: -10px -5px 5px black;}
 
 #left-logo{
     height: 100px;

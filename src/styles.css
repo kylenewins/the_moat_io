@@ -30,7 +30,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .static-bg{
-    background-image: url("assets/static.gif");
+    background-image: url("assets/scans/hobbies/dudes.png");
 }
 
 .story-bg{
@@ -47,6 +47,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .overlay{
     position: absolute;
     z-index: 1000;
-    
 }
+
+#car{
+    right: 0;
+    top: 0;
+    width: 30vw;
+    display: none;
+    z-index: -1000;    
+}
+
 
