@@ -1,13 +1,11 @@
-#container{
+#video-container{
     width: 95vw;
     height: 80vh;
     margin: 20px;
     /* padding: 10px; */
-    overflow-x: scroll; 
-    overflow-y: scroll;
 }
 
-.content {
+.video-content {
     width: 95%; 
     height: 300px;
     /* padding: 20px; */
@@ -18,4 +16,14 @@
     /* height: 60%; */
     height: 25vh;
     bottom: 0;
+    right: 0;
 }
+
+#reverse-plane-pic{
+    display: none;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
