@@ -3,6 +3,8 @@
     height: 80vh;
     margin: 20px;
     /* padding: 10px; */
+    overflow-x: scroll; 
+    overflow-y: scroll;
 }
 
 .video-content {
