@@ -10,3 +10,17 @@
     font-size: 500%;
     white-space: nowrap;
 }
+
+#flyer-container{
+    width: 95vw;
+    height: 80vh;
+    margin: 20px;
+    /* padding: 10px; */
+    overflow-x: scroll; 
+    overflow-y: scroll;
+}
+
+.flyers{
+    width: 50%;
+    height: 100%;
+}
